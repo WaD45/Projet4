@@ -28,6 +28,52 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+#intro {
+    margin-top: 14px;
+    font-size: 2.2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+#intro_div {
+    width: 600px;
+    left: 21%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#div_citation {
+    width: 580px;
+    left: 5%;
+}
+
+#intro_citation {
+    margin-top: 5px;
+    font-size: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#source_citation {
+    margin-top: -10px;
+    font-size: 1.4rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+#div_bloc4 {
+    width: 450px;
+    left: 29%;
+}
+
+#bloc4_realisations {
+    margin-top: 15px;
+    font-size: 2.2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
 .bloc {
     width: 100%;
     clear: both;
@@ -654,7 +700,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #333;
+    color: rgb(0, 0, 0);
 }
 
 .container {
@@ -716,7 +762,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
