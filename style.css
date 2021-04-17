@@ -43,12 +43,13 @@ a:hover {
 }
 
 #div_citation {
-    width: 580px;
-    left: 5%;
+    width: 100%;
 }
 
 #intro_citation {
     margin-top: 5px;
+    width: 75%;
+    margin-left: -5rem;
     font-size: 2rem;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
@@ -57,46 +58,87 @@ a:hover {
 
 #source_citation {
     margin-top: -10px;
+    width: 75%;
+    margin-left: -5rem;
     font-size: 1.4rem;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 
 #div_bloc4 {
-    width: 450px;
-    left: 29%;
+    width: 100%;
 }
 
 #bloc4_realisations {
+    margin-left: 20%;
+    width: 60%;
     margin-top: 15px;
     font-size: 2.2rem;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
 
-.navbar-header {
-    display: flex;
-    flex-direction: column;
+@media (max-width: 425px) {
+    #intro_div {
+        left: 5%;
+        width: 90%;
+    }
+    #intro_citation {
+        width: 95%;
+        margin-left: 2%;
+    }
+    #source_citation {
+        width: 100%;
+        margin-left: 2%;
+    }
+    #bloc4_realisations {
+        width: 90%;
+        margin-left: 5%;
+    }
+    #socialnetworks {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
-#img_page2 {
-    width: 50%;
+@media (min-width: 426px) and (max-width:768px) {
+    #intro_div {
+        width: 90%;
+        left: 5%;
+    }
+    #intro_citation {
+        width: 95%;
+        margin-left: 2%;
+    }
+    #source_citation {
+        width: 100%;
+        margin-left: 2%;
+    }
+    #nav1_page2 {
+        margin-left: -15rem;
+    }
+    #nav2_page2 {
+        margin-left: -13rem;
+    }
+    #nav3_page2 {
+        margin-left: -9rem;
+    }
 }
 
-#nav-toggle2 {
-    margin-top: 1.5rem;
-    margin-left: 1.4rem;
-    width: 5rem;
+@media (min-width: 769px) {
+    #nav1_page2 {
+        margin-left: -30rem;
+    }
+    #nav2_page2 {
+        margin-left: -25rem;
+    }
+    #nav3_page2 {
+        margin-left: -20rem;
+    }
 }
 
-#page2_nav {
-    margin-top: 2rem;
-    left: 75rem;
-}
-
-#li_page2 {
-    margin-left: 15px;
-    text-decoration: none;
+#logo_page2 {
+    size: 50%;
 }
 
 #bloc-6 {
@@ -105,6 +147,23 @@ a:hover {
 
 #rowfooter {
     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#partenaires {
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    margin-left: -40px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
 }
 
 .bloc {
@@ -385,7 +444,6 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
-    width: 100%;
     height: 100%;
 }
 
@@ -759,7 +817,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
