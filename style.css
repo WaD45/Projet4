@@ -13,6 +13,10 @@ button {
     outline: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -116,9 +120,6 @@ a:hover {
     #nav1_page2 {
         margin-left: -15rem;
     }
-    #nav2_page2 {
-        margin-left: -13rem;
-    }
     #nav3_page2 {
         margin-left: -9rem;
     }
@@ -127,9 +128,6 @@ a:hover {
 @media (min-width: 769px) {
     #nav1_page2 {
         margin-left: -30rem;
-    }
-    #nav2_page2 {
-        margin-left: -25rem;
     }
     #nav3_page2 {
         margin-left: -20rem;
